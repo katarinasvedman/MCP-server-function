@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:azureFunctions.pickProcess}",
+            "presentation": {
+                "hidden": false,
+                "group": "Azure",
+                "order": 1
+            }
+        },
+        {
+            "name": "Launch .NET Isolated Function",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/MCP-server-function.csproj"
+        }
+    ]
+}

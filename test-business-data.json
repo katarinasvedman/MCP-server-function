@@ -1,0 +1,10 @@
+{
+  "requestId": "test456",
+  "messageType": "invoke",
+  "invokeRequest": {
+    "operation": "getBusinessData",
+    "parameters": {
+      "period": "last30days"
+    }
+  }
+}

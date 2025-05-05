@@ -1,0 +1,8 @@
+{
+  "requestId": "test123",
+  "messageType": "invoke",
+  "invokeRequest": {
+    "operation": "list_operations",
+    "parameters": {}
+  }
+}
