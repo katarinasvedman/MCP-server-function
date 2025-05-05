@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "mcpserver"
+    },
+    "location": {
+      "value": "swedencentral"
+    },
+    "appServicePlanSku": {
+      "value": "Y1"
+    },
+    "mcpAuthEnabled": {
+      "value": false
+    },
+    "mcpAllowedOperations": {
+      "value": "getBusinessData,triggerLogicApp,callInternalApi,list_operations,get_openapi_spec"
+    }
+  }
+}
